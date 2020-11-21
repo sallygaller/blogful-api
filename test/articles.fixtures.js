@@ -10,8 +10,7 @@ function makeArticlesArray() {
     },
     {
       id: 2,
-      date_published: Math.round(new Date().getTime() / 1000),
-      // date_published: "2100-05-22T16:28:32.615Z".toString(),
+      date_published: "2100-05-22T16:28:32.615Z",
       title: "Second test post!",
       style: "News",
       content:
@@ -19,7 +18,7 @@ function makeArticlesArray() {
     },
     {
       id: 3,
-      // date_published: new Date("1919-12-22T16:28:32.615Z"),
+      date_published: new Date("1919-12-22T16:28:32.615Z"),
       title: "Third test post!",
       style: "Listicle",
       content:
@@ -27,7 +26,7 @@ function makeArticlesArray() {
     },
     {
       id: 4,
-      // date_published: new Date("1919-12-22T16:28:32.615Z"),
+      date_published: new Date("1919-12-22T16:28:32.615Z"),
       title: "Fourth test post!",
       style: "Story",
       content:
