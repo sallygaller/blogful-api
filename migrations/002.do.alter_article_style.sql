@@ -9,3 +9,5 @@ CREATE TYPE article_category AS ENUM (
 ALTER TABLE blogful_articles
   ADD COLUMN
     style article_category;
+
+  
